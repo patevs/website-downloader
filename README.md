@@ -1,6 +1,6 @@
 # Website Downloader
 
-> Simple `NodeJS` script with the purpose of downloading a websites source code for offline browsingS.
+> Simple `NodeJS` script with the purpose of downloading a website's source code for offline browsing.
 
 ---
 
@@ -20,6 +20,7 @@
 ├── .editorconfig        # Editor configuration
 ├── .gitignore           # Git ignore rules
 ├── .np-config.json      # NPM publish (np) configuration
+├── .np-config.json      # Website downloader script
 ├── LICENSE              # Project LICENSE
 ├── package.json         # NPM package configuration
 └── README.md            # Project README
