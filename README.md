@@ -1,16 +1,13 @@
-# Node Template
+# Website Downloader
 
-> A Repository Template for `NodeJS` Projects.
+> Simple `NodeJS` script with the purpose of downloading a websites source code for offline browsingS.
 
 ---
 
 ## Links & Resources
 
-* [`commitlint`](https://github.com/conventional-changelog/commitlint) Lint commit messages.
-  * [`commitlint-config-gitmoji`](https://github.com/arvinxx/commitlint-config-gitmoji) Commitlint config enforcing gitmoji rules.
-  * [Rules](https://github.com/conventional-changelog/commitlint/blob/master/docs/reference-rules.md)
-* [`husky`](https://github.com/typicode/husky) Git hooks made easy.
-* [`np`](https://github.com/sindresorhus/np) A better npm publish.
+* [`website-scraper`](https://www.npmjs.com/package/website-scraper) Download website to local directory (including all css, images, js, etc.).
+* [`website-scraper-puppeteer`](https://github.com/website-scraper/website-scraper-puppeteer) Plugin for website-scraper which returns html for dynamic websites using puppeteer.
 
 ---
 
