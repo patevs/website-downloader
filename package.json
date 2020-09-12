@@ -1,0 +1,33 @@
+{
+  "name": "node-template",
+  "version": "1.12.1",
+  "description": "Repository Template for NodeJS Projects",
+  "author": "PatEvs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patevs/node-template.git"
+  },
+  "scripts": {
+    "updates": "script-progress node ./bin/checkUpdates",
+    "release": "np"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "chalk": "^4.1.0",
+    "commitlint-config-gitmoji": "^1.0.1",
+    "husky": "^4.3.0",
+    "np": "^6.5.0",
+    "script-progress": "^1.0.5"
+  },
+  "commitlint": {
+    "extends": [
+      "./node_modules/commitlint-config-gitmoji"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
