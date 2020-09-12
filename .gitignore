@@ -14,4 +14,7 @@ yarn-error.log*
 # Dependency directories
 node_modules/
 
+# Scraped website
+website/
+
 # EOF #
