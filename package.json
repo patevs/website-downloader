@@ -1,12 +1,12 @@
 {
-  "name": "node-template",
-  "version": "1.12.1",
-  "description": "Repository Template for NodeJS Projects",
+  "name": "website-downloader",
+  "version": "0.0.0",
+  "description": "Download a website's source code for offline browsing",
   "author": "PatEvs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patevs/node-template.git"
+    "url": "git+https://github.com/patevs/website-downloader.git"
   },
   "main": "index.js",
   "scripts": {
