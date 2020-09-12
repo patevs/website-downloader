@@ -8,9 +8,16 @@
     "type": "git",
     "url": "git+https://github.com/patevs/node-template.git"
   },
+  "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "updates": "script-progress node ./bin/checkUpdates",
     "release": "np"
+  },
+  "dependencies": {
+    "website-scraper": "^4.2.2",
+    "website-scraper-phantom": "^1.0.0",
+    "website-scraper-puppeteer": "^0.1.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^9.1.2",
