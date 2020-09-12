@@ -6,14 +6,14 @@ const scrape = require('website-scraper');
 const PuppeteerPlugin = require('website-scraper-puppeteer');
 // const PhantomPlugin = require('website-scraper-phantom');
 
-const websiteUrl = 'https://www.website-name/';
+const websiteUrl = 'https://github.com/patevs/website-downloader';
 
 scrape({
     urls: [websiteUrl],
     urlFilter: function (url) {
         return url.indexOf(websiteUrl) === 0;
     },
-    recursive: true,
+    recursive: false,
     maxDepth: 50,
     prettifyUrls: true,
     filenameGenerator: 'bySiteStructure',
