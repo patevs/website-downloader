@@ -15,7 +15,7 @@
     "release": "np"
   },
   "dependencies": {
-    "website-scraper": "^4.2.2",
+    "website-scraper": "^4.2.3",
     "website-scraper-phantom": "^1.0.0",
     "website-scraper-puppeteer": "^0.1.5"
   },
@@ -32,8 +32,14 @@
       "gitmoji"
     ],
     "rules": {
-      "subject-empty": [0, "never"],
-      "type-empty": [0, "never"]
+      "subject-empty": [
+        0,
+        "never"
+      ],
+      "type-empty": [
+        0,
+        "never"
+      ]
     }
   },
   "husky": {
