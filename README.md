@@ -20,7 +20,7 @@
 ├── .editorconfig        # Editor configuration
 ├── .gitignore           # Git ignore rules
 ├── .np-config.json      # NPM publish (np) configuration
-├── .np-config.json      # Website downloader script
+├── index.js             # Website downloader script
 ├── LICENSE              # Project LICENSE
 ├── package.json         # NPM package configuration
 └── README.md            # Project README
