@@ -1,12 +1,18 @@
-/**************
- * * index.js *
- **************/
+/**
+ * *  index.js
+ */
+
+// * IMPORTS * //
 
 const scrape = require('website-scraper');
 const PuppeteerPlugin = require('website-scraper-puppeteer');
 // const PhantomPlugin = require('website-scraper-phantom');
 
+// * CONSTANTS * //
+
 const websiteUrl = 'https://github.com/patevs/website-downloader';
+
+// * FUNCTIONS * //
 
 scrape({
     urls: [websiteUrl],
@@ -27,9 +33,9 @@ scrape({
         })
     ]
 }).then((data) => {
-    console.log("Entire website succesfully downloaded");
+    console.log("Entire website successfully downloaded!");
 }).catch((err) => {
-    console.log("An error ocurred", err);
+    console.log("An error ocurred: ", err);
 });
 
 /* EOF */
