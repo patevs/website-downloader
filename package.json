@@ -20,7 +20,7 @@
     "release": "np"
   },
   "dependencies": {
-    "website-scraper": "^4.2.3",
+    "website-scraper": "^5.0.0",
     "website-scraper-phantom": "^1.0.0",
     "website-scraper-puppeteer": "^0.1.5"
   },
