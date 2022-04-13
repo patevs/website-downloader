@@ -22,7 +22,7 @@
   "dependencies": {
     "website-scraper": "^5.0.0",
     "website-scraper-phantom": "^1.0.0",
-    "website-scraper-puppeteer": "^0.1.5"
+    "website-scraper-puppeteer": "^1.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
