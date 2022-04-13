@@ -15,7 +15,8 @@
 
 ```md
 .
-├── bin
+├── .husky               # Husky configuration
+├── bin                  # Utility scripts
 │   └── checkUpdates.js  # Check for outdated npm modules
 ├── .editorconfig        # Editor configuration
 ├── .gitignore           # Git ignore rules
