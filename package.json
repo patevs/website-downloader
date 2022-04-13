@@ -8,7 +8,11 @@
     "type": "git",
     "url": "git+https://github.com/patevs/website-downloader.git"
   },
-  "main": "index.js",
+  "exports": "./index.js",
+  "type": "module",
+  "engines": {
+    "node": "^14.14.0 || >=16.0.0"
+  },
   "scripts": {
     "prepare": "husky install",
     "start": "node index.js",
