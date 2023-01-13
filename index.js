@@ -43,7 +43,7 @@ scrape({
         })
     ]
 }).then((_) => {
-    log(info('Entire website successfully downloaded!'));
+    log(info(' Entire website successfully downloaded!\n'));
 }).catch((error) => {
     log('\n ' + err(' ERROR ') + ' ' + error + '\n');
     // process.exit(error.status);
