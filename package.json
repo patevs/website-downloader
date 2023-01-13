@@ -20,13 +20,13 @@
     "release": "npx np"
   },
   "dependencies": {
+    "chalk": "^5.2.0",
     "website-scraper": "^5.0.0",
     "website-scraper-phantom": "^1.0.0",
     "website-scraper-puppeteer": "^1.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
-    "chalk": "^5.2.0",
     "commitlint-config-gitmoji": "^2.2.9",
     "husky": "^8.0.3",
     "script-progress": "^1.0.5"
