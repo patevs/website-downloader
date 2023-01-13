@@ -30,20 +30,5 @@
     "commitlint-config-gitmoji": "^2.2.9",
     "husky": "^8.0.3",
     "script-progress": "^1.0.5"
-  },
-  "commitlint": {
-    "extends": [
-      "gitmoji"
-    ],
-    "rules": {
-      "subject-empty": [
-        0,
-        "never"
-      ],
-      "type-empty": [
-        0,
-        "never"
-      ]
-    }
   }
 }
