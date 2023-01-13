@@ -4,6 +4,8 @@
 
 // IMPORTS //
 
+import chalk from 'chalk'
+
 import scrape from 'website-scraper';
 import PuppeteerPlugin from 'website-scraper-puppeteer';
 // const PhantomPlugin = require('website-scraper-phantom');
@@ -12,7 +14,15 @@ import PuppeteerPlugin from 'website-scraper-puppeteer';
 
 const websiteUrl = 'https://github.com/patevs/website-downloader';
 
+const { log } = console;
+
+// Text Styles
+const info = chalk.green;
+const err = chalk.bgRed.black;
+
 // FUNCTIONS //
+
+log(info('\n Downloading website: ') + websiteUrl);
 
 scrape({
     urls: [websiteUrl],
@@ -32,10 +42,11 @@ scrape({
             blockNavigation: false, // optional
         })
     ]
-}).then((data) => {
-    console.log('Entire website successfully downloaded!');
-}).catch((err) => {
-    console.log('An error ocurred: ', err);
+}).then((_) => {
+    log(info('Entire website successfully downloaded!'));
+}).catch((error) => {
+    log('\n ' + err(' ERROR ') + ' ' + error + '\n');
+    // process.exit(error.status);
 });
 
 /* EOF */
