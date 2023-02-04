@@ -606,24 +606,24 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commitlint-config-gitmoji@^2.2.9:
-  version "2.2.9"
-  resolved "https://registry.yarnpkg.com/commitlint-config-gitmoji/-/commitlint-config-gitmoji-2.2.9.tgz#b82024a263aa843f5801612c744f6f4119d60f52"
-  integrity sha512-z9fbkE22RUMw9KIUDadzAuxYmwwB4p1LoEaqDMNGx6fJ7JRiBAfOtD6xP+9ZO+8h5oJLg8XOsFIbmoFhkTCXRA==
+commitlint-config-gitmoji@^2.2.10:
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/commitlint-config-gitmoji/-/commitlint-config-gitmoji-2.2.10.tgz#b3b75746f926b2c76ed0cbb82076e69dbc478a8f"
+  integrity sha512-73m0Ebc5YkZ2tODAf85Aj4BbrtTfegMGYwLdvm4CEyofKYN+TvsEQVOvy6TDTgBSiJApGHXYvPmMtweMYUonvg==
   dependencies:
     "@commitlint/types" "^17"
     "@gitmoji/commit-types" "1.1.5"
     "@gitmoji/parser-opts" "1.3.1"
-    commitlint-plugin-gitmoji "2.2.3"
+    commitlint-plugin-gitmoji "2.2.4"
 
-commitlint-plugin-gitmoji@2.2.3:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/commitlint-plugin-gitmoji/-/commitlint-plugin-gitmoji-2.2.3.tgz#06e573a00e09277835491028dde2e0400e9e64d7"
-  integrity sha512-uF3RVeKD+kRc6OWx3sIdXUeBvSuSWYiitalOw2zSLSbxabEgUV7M7FpqrSfYOgv3DdWhjy6ErMDgwKanZ7x9Lw==
+commitlint-plugin-gitmoji@2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/commitlint-plugin-gitmoji/-/commitlint-plugin-gitmoji-2.2.4.tgz#c7b94c492fb5c7f67bcceac9688296d5be3e09d8"
+  integrity sha512-ZANJPCADVcHieQRSFOI2D9r8J4WYWAoEOHZykyQGQtWHIjwBkJOecCeGdycsy4BIeER73+ZYgloMhA1vGm3h9g==
   dependencies:
     "@commitlint/types" "^17"
     emoji-name-map "^1.2.9"
-    gitmojis "^3.11.1"
+    gitmojis "3.13.2"
 
 commondir@^1.0.1:
   version "1.0.1"
@@ -1105,7 +1105,7 @@ git-raw-commits@^2.0.0:
     split2 "^3.0.0"
     through2 "^4.0.0"
 
-gitmojis@^3.11.1:
+gitmojis@3.13.2:
   version "3.13.2"
   resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.13.2.tgz#fe3fc24d14e2050edd9e0eb5e4ae5319ff2eb8a5"
   integrity sha512-LqtmY8cectRus+1/hoXotA/ln0Fgjxwn/SUSzvZdYtkArvzrTEfACIU6bWC1Jw/wezYHIIzZdJbJhePKcYKzpw==

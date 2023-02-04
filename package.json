@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
-    "commitlint-config-gitmoji": "^2.2.9",
+    "commitlint-config-gitmoji": "^2.2.10",
     "husky": "^8.0.3",
     "script-progress": "^1.0.5"
   }
