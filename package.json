@@ -26,7 +26,7 @@
     "website-scraper-puppeteer": "^1.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.4",
+    "@commitlint/cli": "^17.8.1",
     "commitlint-config-gitmoji": "^2.3.1",
     "husky": "^8.0.3",
     "script-progress": "^1.0.5"
