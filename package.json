@@ -14,7 +14,7 @@
     "node": "^14.14.0 || >=16.0.0"
   },
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "start": "node index.js",
     "updates": "script-progress node ./bin/checkUpdates",
     "release": "npx np"
