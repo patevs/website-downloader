@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "chalk": "^5.6.2",
-    "website-scraper": "^5.3.1",
+    "website-scraper": "^6.0.0",
     "website-scraper-phantom": "^1.0.0",
     "website-scraper-puppeteer": "^1.1.0"
   },
